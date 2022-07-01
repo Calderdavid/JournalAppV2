@@ -1,4 +1,5 @@
 import { loginWithEmailPassword, registerUserWithEmailPassword, singInWithGoogle, logoutFirebase } from '../../firebase/providers';
+import { loadNotes } from '../../helpers';
 import { checkingCredentials, logout, login } from './';
 
 export const checkingAuthentication = () => {
